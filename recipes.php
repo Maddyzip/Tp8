@@ -10,7 +10,7 @@ $list = $_GET["recipeList"];
 If ($name == "Good Old fashioned Pancakes") {
    
    If ($list == "ingredients") {
-            Include "ingredients.hmtl";
+            Include "ingredients.html";
               
    } Elseif ($list == "equipment"){
            Include "equipment.html";
@@ -26,25 +26,25 @@ If ($name == "Good Old fashioned Pancakes") {
 }Elseif ($name == "Mushroom Salsa Chili") {
      
       If ($list == "ingredients"){
-            Include "ingredients.hmtl";
+            Include "mushroom-ingredients.html";
               
    } Elseif ($list == "equipment"){
-           Include "equipment.html";
+           Include "mushroom-equipment.html";
         
   } Elseif ($list == "directions") {
-           Include "directions.html";
+           Include "mushroom-directions.html";
       } 
   
    }Elseif ($name == "Hal's Wine mustard") {
         
      If ($list == "ingredients"){
-            Include "ingredients.hmtl";
+            Include "mustard-ingredients.html";
               
    } Elseif ($list == "equipment"){
-           Include "equipment.html";
+           Include "mustard-equipment.html";
         
   } Elseif ($list == "directions") {
-           Include "directions.html";
+           Include "mustard-directions.html";
    }
   
   
